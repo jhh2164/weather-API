@@ -43,7 +43,7 @@ if weather_info is not None:
   print ("Latitude " + str(latitude))
   print ("Wind Speed: " + str(wind_speed))
   print ("Weather Description: " + weather_desc)
-  print ("Maximum Temperature: " + str(max_temp))
-  print ("Minimum Temperature: " + str(min_temp))
+  print ("Maximum Temperature: " + str(max_temp) + " K")
+  print ("Minimum Temperature: " + str(min_temp) + " K")
 else:
   print "[!] Request Failed"
