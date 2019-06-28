@@ -28,8 +28,7 @@ def get_weather_info():
 
 # creates weather_info dictionary
 weather_info = get_weather_info();
-#print(weather_info)
-#print(type(weather_info))#
+
 if weather_info is not None:
   city_name = weather_info["list"][0]["name"]
   longitude = weather_info["list"][0]["coord"]["lon"]
